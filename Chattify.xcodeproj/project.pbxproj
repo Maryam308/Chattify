@@ -14,6 +14,7 @@
 		5C443E4A2C9EE53200D9D7BF /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E492C9EE53200D9D7BF /* VideoPlayerViewController.swift */; };
 		5C443E4C2C9EE55A00D9D7BF /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E4B2C9EE55A00D9D7BF /* NewConversationViewController.swift */; };
 		5C443E4E2C9EE56700D9D7BF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E4D2C9EE56700D9D7BF /* ProfileViewController.swift */; };
+		5C443E512C9EF03A00D9D7BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E502C9EF03A00D9D7BF /* Extensions.swift */; };
 		5C929A8E2C9C680E00A7293D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C929A8D2C9C680E00A7293D /* AppDelegate.swift */; };
 		5C929A902C9C680E00A7293D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C929A8F2C9C680E00A7293D /* SceneDelegate.swift */; };
 		5C929A952C9C680E00A7293D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5C929A942C9C680E00A7293D /* Base */; };
@@ -29,6 +30,7 @@
 		5C443E492C9EE53200D9D7BF /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		5C443E4B2C9EE55A00D9D7BF /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		5C443E4D2C9EE56700D9D7BF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5C443E502C9EF03A00D9D7BF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5C929A8A2C9C680E00A7293D /* Chattify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chattify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C929A8D2C9C680E00A7293D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C929A8F2C9C680E00A7293D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,8 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				5C443E3F2C9ED12500D9D7BF /* ChatsViewController.swift */,
-				5C443E432C9EE31B00D9D7BF /* LoginViewController.swift */,
-				5C443E452C9EE32B00D9D7BF /* RegisterViewController.swift */,
+				5C443E4F2C9EE6F000D9D7BF /* Login */,
 				5C443E472C9EE35200D9D7BF /* PhotoViewerViewController.swift */,
 				5C443E492C9EE53200D9D7BF /* VideoPlayerViewController.swift */,
 				5C443E4B2C9EE55A00D9D7BF /* NewConversationViewController.swift */,
@@ -91,6 +92,7 @@
 			children = (
 				5C929A8D2C9C680E00A7293D /* AppDelegate.swift */,
 				5C929A8F2C9C680E00A7293D /* SceneDelegate.swift */,
+				5C443E502C9EF03A00D9D7BF /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -102,6 +104,15 @@
 				5C929A982C9C682300A7293D /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5C443E4F2C9EE6F000D9D7BF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5C443E432C9EE31B00D9D7BF /* LoginViewController.swift */,
+				5C443E452C9EE32B00D9D7BF /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		5C929A812C9C680E00A7293D = {
@@ -209,6 +220,7 @@
 				5C443E4C2C9EE55A00D9D7BF /* NewConversationViewController.swift in Sources */,
 				5C929A8E2C9C680E00A7293D /* AppDelegate.swift in Sources */,
 				5C443E4A2C9EE53200D9D7BF /* VideoPlayerViewController.swift in Sources */,
+				5C443E512C9EF03A00D9D7BF /* Extensions.swift in Sources */,
 				5C443E402C9ED13000D9D7BF /* ChatsViewController.swift in Sources */,
 				5C443E4E2C9EE56700D9D7BF /* ProfileViewController.swift in Sources */,
 				5C929A902C9C680E00A7293D /* SceneDelegate.swift in Sources */,
