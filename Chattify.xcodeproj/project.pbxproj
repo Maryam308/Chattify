@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C443E402C9ED13000D9D7BF /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E3F2C9ED12500D9D7BF /* ChatsViewController.swift */; };
+		5C443E442C9EE31B00D9D7BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E432C9EE31B00D9D7BF /* LoginViewController.swift */; };
+		5C443E462C9EE32B00D9D7BF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E452C9EE32B00D9D7BF /* RegisterViewController.swift */; };
+		5C443E482C9EE35200D9D7BF /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E472C9EE35200D9D7BF /* PhotoViewerViewController.swift */; };
+		5C443E4A2C9EE53200D9D7BF /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E492C9EE53200D9D7BF /* VideoPlayerViewController.swift */; };
+		5C443E4C2C9EE55A00D9D7BF /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E4B2C9EE55A00D9D7BF /* NewConversationViewController.swift */; };
+		5C443E4E2C9EE56700D9D7BF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C443E4D2C9EE56700D9D7BF /* ProfileViewController.swift */; };
 		5C929A8E2C9C680E00A7293D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C929A8D2C9C680E00A7293D /* AppDelegate.swift */; };
 		5C929A902C9C680E00A7293D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C929A8F2C9C680E00A7293D /* SceneDelegate.swift */; };
-		5C929A922C9C680E00A7293D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C929A912C9C680E00A7293D /* ViewController.swift */; };
 		5C929A952C9C680E00A7293D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5C929A942C9C680E00A7293D /* Base */; };
 		5C929A972C9C682300A7293D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C929A962C9C682300A7293D /* Assets.xcassets */; };
 		5C929A9A2C9C682300A7293D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5C929A992C9C682300A7293D /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C443E3F2C9ED12500D9D7BF /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		5C443E432C9EE31B00D9D7BF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C443E452C9EE32B00D9D7BF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5C443E472C9EE35200D9D7BF /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		5C443E492C9EE53200D9D7BF /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		5C443E4B2C9EE55A00D9D7BF /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		5C443E4D2C9EE56700D9D7BF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5C929A8A2C9C680E00A7293D /* Chattify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chattify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C929A8D2C9C680E00A7293D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C929A8F2C9C680E00A7293D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C929A912C9C680E00A7293D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C929A942C9C680E00A7293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C929A962C9C682300A7293D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C929A992C9C682300A7293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +49,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C443E392C9ECCF200D9D7BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C443E3F2C9ED12500D9D7BF /* ChatsViewController.swift */,
+				5C443E432C9EE31B00D9D7BF /* LoginViewController.swift */,
+				5C443E452C9EE32B00D9D7BF /* RegisterViewController.swift */,
+				5C443E472C9EE35200D9D7BF /* PhotoViewerViewController.swift */,
+				5C443E492C9EE53200D9D7BF /* VideoPlayerViewController.swift */,
+				5C443E4B2C9EE55A00D9D7BF /* NewConversationViewController.swift */,
+				5C443E4D2C9EE56700D9D7BF /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5C443E3A2C9ECD4100D9D7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C443E3E2C9ECDCD00D9D7BF /* Storyboards */,
+				5C929A962C9C682300A7293D /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C443E3B2C9ECD4D00D9D7BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C443E3C2C9ECD5A00D9D7BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5C443E3D2C9ECD6900D9D7BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C929A8D2C9C680E00A7293D /* AppDelegate.swift */,
+				5C929A8F2C9C680E00A7293D /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5C443E3E2C9ECDCD00D9D7BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5C929A932C9C680E00A7293D /* Main.storyboard */,
+				5C929A982C9C682300A7293D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		5C929A812C9C680E00A7293D = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +123,11 @@
 		5C929A8C2C9C680E00A7293D /* Chattify */ = {
 			isa = PBXGroup;
 			children = (
-				5C929A8D2C9C680E00A7293D /* AppDelegate.swift */,
-				5C929A8F2C9C680E00A7293D /* SceneDelegate.swift */,
-				5C929A912C9C680E00A7293D /* ViewController.swift */,
-				5C929A932C9C680E00A7293D /* Main.storyboard */,
-				5C929A962C9C682300A7293D /* Assets.xcassets */,
-				5C929A982C9C682300A7293D /* LaunchScreen.storyboard */,
+				5C443E3D2C9ECD6900D9D7BF /* Resources */,
+				5C443E3C2C9ECD5A00D9D7BF /* ViewModels */,
+				5C443E3B2C9ECD4D00D9D7BF /* Models */,
+				5C443E3A2C9ECD4100D9D7BF /* Views */,
+				5C443E392C9ECCF200D9D7BF /* Controllers */,
 				5C929A9B2C9C682300A7293D /* Info.plist */,
 			);
 			path = Chattify;
@@ -138,9 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C929A922C9C680E00A7293D /* ViewController.swift in Sources */,
+				5C443E442C9EE31B00D9D7BF /* LoginViewController.swift in Sources */,
+				5C443E462C9EE32B00D9D7BF /* RegisterViewController.swift in Sources */,
+				5C443E4C2C9EE55A00D9D7BF /* NewConversationViewController.swift in Sources */,
 				5C929A8E2C9C680E00A7293D /* AppDelegate.swift in Sources */,
+				5C443E4A2C9EE53200D9D7BF /* VideoPlayerViewController.swift in Sources */,
+				5C443E402C9ED13000D9D7BF /* ChatsViewController.swift in Sources */,
+				5C443E4E2C9EE56700D9D7BF /* ProfileViewController.swift in Sources */,
 				5C929A902C9C680E00A7293D /* SceneDelegate.swift in Sources */,
+				5C443E482C9EE35200D9D7BF /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +369,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +377,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.Chattify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,8 +399,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +407,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.maryam.Chattify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
